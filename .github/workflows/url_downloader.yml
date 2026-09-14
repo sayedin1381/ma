@@ -17,13 +17,13 @@ on:
       max_part_mb:
         description: "Maximum size per part (MB)"
         required: false
-        default: "90"
+        default: "1800"
         type: string
 
       upload_method:
         description: "Upload Method"
         required: true
-        default: "repository"
+        default: "release"
         type: choice
         options:
           - repository
